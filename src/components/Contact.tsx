@@ -1,16 +1,18 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Mail, Instagram, Music2, Youtube } from "lucide-react";
+import { Instagram, Music2, Youtube, Phone } from "lucide-react";
 
 interface ContactProps {
-  email: string;
+  // email: string;
+  phone: string;
   instagram: string;
   spotify?: string;
   youtube: string;
 }
 
 export const Contact = ({
-  email,
+  phone,
+  // email,
   instagram,
   spotify,
   youtube,
@@ -18,7 +20,11 @@ export const Contact = ({
   const { t } = useTranslation();
 
   const socialLinks = [
-    { icon: Mail, href: `mailto:${email}`, label: "Email" },
+    {
+      icon: Phone,
+      href: `https://api.whatsapp.com/send/?phone=${phone}&text&type=phone_number&app_absent=0`,
+      label: "Email",
+    },
     {
       icon: Instagram,
       href: `https://instagram.com/${instagram}`,

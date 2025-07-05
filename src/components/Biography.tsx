@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 interface BiographyProps {
   content: string;
@@ -8,7 +9,7 @@ interface BiographyProps {
 }
 
 export const Biography = ({ content, image }: BiographyProps) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('common');
   const [ref, inView] = useInView({
     threshold: 0.3,
     triggerOnce: true,
@@ -62,9 +63,11 @@ export const Biography = ({ content, image }: BiographyProps) => {
             className="sticky top-24"
           >
             <div className="rounded-lg overflow-hidden shadow-xl">
-              <img
+              <Image
                 src={image}
                 alt={t("common.biography")}
+                width={500}
+                height={600}
                 className="w-full h-auto object-cover"
               />
             </div>

@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import { LanguageSelector } from "./LanguageSelector";
 import { ThemeToggle } from "./ThemeToggle";
 
 export const Header = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('common');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
@@ -62,14 +62,6 @@ export const Header = () => {
                   {t("common.biography")}
                 </button>
               </li>
-              {/* <li>
-                <button
-                  onClick={() => scrollToSection('releases')}
-                  className="w-full text-left px-6 py-3 text-lg font-medium text-gray-800 dark:text-white hover:bg-black/10 dark:hover:bg-white/10 rounded-lg transition-all duration-200 hover:scale-105"
-                >
-                {t('common.releases')}
-                </button>
-              </li> */}
               <li>
                 <button
                   onClick={() => scrollToSection("contact")}

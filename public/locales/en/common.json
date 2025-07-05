@@ -1,0 +1,41 @@
+{
+  "common": {
+    "biography": "About me",
+    "bookingContact": "Booking & Contact",
+    "socialMedia": "Social Media",
+    "technicalRider": "Technical Rider",
+    "releases": "Releases",
+    "events": "Events"
+  },
+  "meta": {
+    "title": "Gon Pino DJ - Professional DJ Costa del Sol",
+    "description": "Electronic Music DJ and Producer in Costa del Sol, Spain. Specialized in Tech House, Latin Tech, Afro House and Deep Tech. Available for events, parties and bookings in Marbella, Estepona and the entire Costa del Sol.",
+    "subtitle": "Electronic Music Artist & Producer"
+  },
+  "seo": {
+    "title": "DJ Gon Pino - Professional DJ Costa del Sol | Marbella | Estepona | Events & Parties",
+    "description": "🎵 Professional DJ in Costa del Sol with +13 years experience. Specialized in Tech House, Latin Tech, Afro House. DJ booking for events, parties, weddings in Marbella, Estepona. Book now!",
+    "keywords": "DJ Costa del Sol, DJ Marbella, DJ Estepona, DJ Spain, professional DJ, Tech House, Latin Tech, Afro House, Deep Tech, electronic music, DJ events, DJ parties, DJ weddings, DJ booking, DJ Malaga, DJ Andalusia, music producer, experienced DJ, DJ hire, book DJ, available DJ, premium DJ, exclusive DJ, corporate DJ, DJ celebrations, DJ sound, DJ sets, DJ shows, DJ performances, DJ entertainment, DJ atmosphere, DJ dance, DJ terrace, DJ beach, pool party, beach club, rooftop DJ, DJ hotel, DJ resort, DJ villa, DJ birthday, DJ anniversary, DJ opening, DJ launch, DJ brand, DJ company, DJ local, Costa del Sol DJ area, Marbella DJ region, professional Estepona DJ, nearby DJ, recommended DJ, top DJ, excellent DJ, outstanding DJ, recognized DJ, famous DJ, popular DJ, house music, techno music, summer DJ, season DJ, international DJ, national DJ, DJ Fuengirola, DJ Benalmadena, DJ Torremolinos, DJ Puerto Banus, DJ Nueva Andalucia, DJ San Pedro, DJ Benahavis",
+    "ogTitle": "🎵 DJ Gon Pino - Professional DJ Costa del Sol | Events & Parties Booking",
+    "ogDescription": "Professional DJ with +13 years experience in Costa del Sol. Specialized in Tech House, Latin Tech, Afro House. Available for events, parties, weddings in Marbella, Estepona. Contact us!",
+    "ogImageAlt": "DJ Gon Pino - Professional Electronic Music DJ in Costa del Sol",
+    "twitterTitle": "DJ Gon Pino - Professional DJ Costa del Sol | Events & Parties",
+    "twitterDescription": "🎵 Professional DJ with +13 years experience. Tech House, Latin Tech, Afro House. Available for events in Marbella, Estepona. Book now!",
+    "eventName": "Professional DJ Services - Gon Pino",
+    "eventDescription": "Professional DJ booking for events, parties, weddings and celebrations in Costa del Sol. Specialized in electronic music, Tech House, Latin Tech and Afro House."
+  },
+  "biography": {
+    "myStory": {
+      "title": "My Story",
+      "content": "Since my beginnings in 2012, I have accumulated over 13 years of experience in the music industry, performing at renowned clubs across Argentina, Spain, and Italy. Some of these venues include Basement Club, Moondance, Icon Club, La Sospechosa Madrid, and El Sótano. My passion for electronic music has led me to be recognized as one of the most outstanding DJs in Costa del Sol, offering unique sets that combine the best house music with innovative Latin sounds."
+    },
+    "notableCollaborations": {
+      "title": "Notable Collaborations",
+      "content": "I have shared the booth with renowned DJs such as Sergio Saffe, Carlos Chaparro, Martín Huergo, and MoodMusic. These collaborations have enriched my musical style and allowed me to develop a unique proposal that combines international experience with the most current sounds of electronic music."
+    },
+    "musicalGenres": {
+      "title": "Musical Genres & Services",
+      "content": "My repertoire spans genres such as Tech House, Latin Tech, Afro House, and Deep Tech, tailoring my sets to the audience's preferences and creating unique musical experiences. I offer complete DJ services for corporate events, private parties, weddings, openings and celebrations throughout Costa del Sol, including Marbella, Estepona, Fuengirola and Malaga."
+    }
+  }
+}

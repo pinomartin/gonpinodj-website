@@ -1,13 +1,14 @@
 import { Globe } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 
 export const LanguageSelector = () => {
   const { i18n } = useTranslation();
+  const router = useRouter();
 
   const toggleLanguage = () => {
     const newLang = i18n.language === 'en' ? 'es' : 'en';
-    i18n.changeLanguage(newLang);
-    document.documentElement.lang = newLang;
+    router.push(router.pathname, router.asPath, { locale: newLang });
   };
 
   return (

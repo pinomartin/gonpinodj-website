@@ -5,7 +5,6 @@ import {
   MediaProvider,
   type MediaPlayerInstance,
 } from "@vidstack/react";
-import trimmedVideoDogor from "../assets/trimmedVideoDogor.mp4";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -26,7 +25,7 @@ export function HeroVideo({
     <MediaPlayer
       className="w-full aspect-video bg-slate-900 text-white font-sans overflow-hidden rounded-md ring-media-focus data-[focus]:ring-4"
       title="Main Video"
-      src={trimmedVideoDogor}
+      src="/assets/trimmedVideoDogor.mp4"
       crossOrigin
       loop
       playsInline

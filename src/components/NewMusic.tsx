@@ -7,8 +7,15 @@ const USERNAME = "djgonpino"; // Replace with your SoundCloud username
 
 const SoundCloudPlayer: React.FC = () => {
   const [trackUrl, setTrackUrl] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+
     const fetchTrack = async () => {
       try {
         // Get the user's SoundCloud profile
@@ -34,7 +41,11 @@ const SoundCloudPlayer: React.FC = () => {
     };
 
     fetchTrack();
-  }, []);
+  }, [mounted]);
+
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <div>

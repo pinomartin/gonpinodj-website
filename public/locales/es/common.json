@@ -1,0 +1,41 @@
+{
+  "common": {
+    "biography": "Acerca de mí",
+    "bookingContact": "Contacto y Contratación",
+    "socialMedia": "Redes Sociales",
+    "technicalRider": "Rider Técnico",
+    "releases": "Lanzamientos",
+    "events": "Eventos"
+  },
+  "meta": {
+    "title": "Gon Pino DJ - DJ Profesional Costa del Sol",
+    "description": "DJ y Productor de Música Electrónica en Costa del Sol, España. Especializado en Tech House, Latin Tech, Afro House y Deep Tech. Disponible para eventos, fiestas y contrataciones en Marbella, Estepona y toda la Costa del Sol.",
+    "subtitle": "DJ y Productor de Música Electrónica"
+  },
+  "seo": {
+    "title": "DJ Gon Pino - DJ Profesional Costa del Sol | Marbella | Estepona | Eventos y Fiestas",
+    "description": "🎵 DJ profesional en Costa del Sol con +13 años de experiencia. Especializado en Tech House, Latin Tech, Afro House. Contratación DJ para eventos, fiestas, bodas en Marbella, Estepona. ¡Reserva ya!",
+    "keywords": "DJ Costa del Sol, DJ Marbella, DJ Estepona, DJ España, DJ profesional, Tech House, Latin Tech, Afro House, Deep Tech, música electrónica, DJ eventos, DJ fiestas, DJ bodas, contratación DJ, DJ Málaga, DJ Andalucía, productor musical, DJ experiencia, alquiler DJ, reservar DJ, DJ disponible, DJ premium, DJ exclusivo, DJ corporativo, DJ celebraciones, DJ sonido, DJ sets, DJ shows, DJ actuaciones, DJ entretenimiento, DJ ambiente, DJ baile, DJ terraza, DJ playa, pool party, beach club, rooftop, DJ hotel, DJ resort, DJ villa, DJ cumpleaños, DJ aniversario, DJ inauguración, DJ lanzamiento, DJ marca, DJ empresa, DJ local, DJ zona Costa del Sol, DJ región Marbella, DJ Estepona profesional, DJ cercano, DJ recomendado, DJ top, DJ excelente, DJ destacado, DJ reconocido, DJ famoso, DJ popular, música house, música techno, DJ verano, DJ temporada, DJ internacional, DJ nacional, DJ Fuengirola, DJ Benalmádena, DJ Torremolinos, DJ Puerto Banús, DJ Nueva Andalucía, DJ San Pedro, DJ Benahavís",
+    "ogTitle": "🎵 DJ Gon Pino - DJ Profesional Costa del Sol | Contratación Eventos y Fiestas",
+    "ogDescription": "DJ profesional con +13 años de experiencia en Costa del Sol. Especializado en Tech House, Latin Tech, Afro House. Disponible para eventos, fiestas, bodas en Marbella, Estepona. ¡Contáctanos!",
+    "ogImageAlt": "DJ Gon Pino - DJ Profesional de Música Electrónica en Costa del Sol",
+    "twitterTitle": "DJ Gon Pino - DJ Profesional Costa del Sol | Eventos y Fiestas",
+    "twitterDescription": "🎵 DJ profesional con +13 años de experiencia. Tech House, Latin Tech, Afro House. Disponible para eventos en Marbella, Estepona. ¡Reserva ya!",
+    "eventName": "Servicios de DJ Profesional - Gon Pino",
+    "eventDescription": "Contratación de DJ profesional para eventos, fiestas, bodas y celebraciones en Costa del Sol. Especializado en música electrónica, Tech House, Latin Tech y Afro House."
+  },
+  "biography": {
+    "myStory": {
+      "title": "Mi Historia",
+      "content": "Desde mis inicios en 2012, he acumulado más de 13 años de experiencia en la industria musical, actuando en reconocidos clubes de Argentina, España e Italia. Algunos de estos incluyen Basement Club, Moondance, Icon Club, La Sospechosa Madrid y El Sótano. Mi pasión por la música electrónica me ha llevado a ser reconocido como uno de los DJs más destacados de la Costa del Sol, ofreciendo sets únicos que combinan la mejor música house con sonidos latinos innovadores."
+    },
+    "notableCollaborations": {
+      "title": "Colaboraciones Destacadas",
+      "content": "He compartido cabina con DJs de renombre como Sergio Saffe, Carlos Chaparro, Martín Huergo y MoodMusic. Estas colaboraciones han enriquecido mi estilo musical y me han permitido desarrollar una propuesta única que combina la experiencia internacional con los sonidos más actuales de la música electrónica."
+    },
+    "musicalGenres": {
+      "title": "Géneros Musicales y Servicios",
+      "content": "Mi repertorio abarca géneros como Tech House, Latin Tech, Afro House y Deep Tech, adaptándome a las preferencias de cada audiencia y creando experiencias musicales únicas. Ofrezco servicios completos de DJ para eventos corporativos, fiestas privadas, bodas, inauguraciones y celebraciones en toda la Costa del Sol, incluyendo Marbella, Estepona, Fuengirola y Málaga."
+    }
+  }
+}

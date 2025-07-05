@@ -1,0 +1,28 @@
+{
+  "name": "DJ Gon Pino - DJ Profesional Costa del Sol",
+  "short_name": "Gon Pino DJ",
+  "description": "DJ y Productor de Música Electrónica en Costa del Sol. Especializado en Tech House, Latin Tech, Afro House y Deep Tech.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["music", "entertainment", "lifestyle"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+} 

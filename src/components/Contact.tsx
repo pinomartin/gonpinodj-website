@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "next-i18next";
 import { Instagram, Music2, Youtube, Phone } from "lucide-react";
 
 interface ContactProps {
-  // email: string;
   phone: string;
   instagram: string;
   spotify?: string;
@@ -12,12 +11,11 @@ interface ContactProps {
 
 export const Contact = ({
   phone,
-  // email,
   instagram,
   spotify,
   youtube,
 }: ContactProps) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('common');
 
   const socialLinks = [
     {

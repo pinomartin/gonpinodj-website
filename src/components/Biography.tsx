@@ -1,15 +1,16 @@
+'use client'
+
 import { motion } from "framer-motion";
-import { useTranslation } from "next-i18next";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
+import { useLanguage } from '@/context/LanguageContext';
 
 interface BiographyProps {
-  content: string;
   image: string;
 }
 
-export const Biography = ({ content, image }: BiographyProps) => {
-  const { t } = useTranslation('common');
+export const Biography = ({ image }: BiographyProps) => {
+  const { t } = useLanguage();
   const [ref, inView] = useInView({
     threshold: 0.3,
     triggerOnce: true,
@@ -24,34 +25,34 @@ export const Biography = ({ content, image }: BiographyProps) => {
     >
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-12">
-          {t("common.biography")}
+          {t('biography.title')}
         </h2>
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-                {t("biography.myStory.title")}
+                {t('biography.myStory.title')}
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                {t("biography.myStory.content")}
+                {t('biography.myStory.content')}
               </p>
             </div>
 
             <div>
               <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-                {t("biography.notableCollaborations.title")}
+                {t('biography.genres.title')}
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                {t("biography.notableCollaborations.content")}
+                {t('biography.genres.content')}
               </p>
             </div>
 
             <div>
               <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-                {t("biography.musicalGenres.title")}
+                {t('biography.experience.title')}
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                {t("biography.musicalGenres.content")}
+                {t('biography.experience.content')}
               </p>
             </div>
           </div>
@@ -65,7 +66,7 @@ export const Biography = ({ content, image }: BiographyProps) => {
             <div className="rounded-lg overflow-hidden shadow-xl">
               <Image
                 src={image}
-                alt={t("common.biography")}
+                alt="DJ Gon Pino"
                 width={500}
                 height={600}
                 className="w-full h-auto object-cover"

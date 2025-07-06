@@ -1,6 +1,8 @@
+'use client'
+
 import { motion } from "framer-motion";
-import { useTranslation } from "next-i18next";
 import { Instagram, Music2, Youtube, Phone } from "lucide-react";
+import { useLanguage } from '@/context/LanguageContext';
 
 interface ContactProps {
   phone: string;
@@ -15,28 +17,36 @@ export const Contact = ({
   spotify,
   youtube,
 }: ContactProps) => {
-  const { t } = useTranslation('common');
-
+  const { t } = useLanguage();
+  
   const socialLinks = [
     {
       icon: Phone,
       href: `https://api.whatsapp.com/send/?phone=${phone}&text&type=phone_number&app_absent=0`,
-      label: "Email",
+      label: t('contact.whatsapp'),
     },
     {
       icon: Instagram,
       href: `https://instagram.com/${instagram}`,
-      label: "Instagram",
+      label: t('contact.instagram'),
     },
-    { icon: Youtube, href: `https://youtube.com/${youtube}`, label: "Youtube" },
-    ...(spotify ? [{ icon: Music2, href: spotify, label: "Spotify" }] : []),
+    { 
+      icon: Youtube, 
+      href: `https://youtube.com/${youtube}`, 
+      label: t('contact.youtube'),
+    },
+    ...(spotify ? [{ 
+      icon: Music2, 
+      href: spotify, 
+      label: t('contact.soundcloud'),
+    }] : []),
   ];
 
   return (
     <section className="py-20 bg-gradient-to-b from-gray-100 via-gray-50 to-white dark:from-gray-800 dark:via-gray-900 dark:to-black transition-colors duration-300">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-12">
-          {t("common.bookingContact")}
+          {t('contact.title')}
         </h2>
         <div className="flex justify-center gap-6">
           {socialLinks.map(({ icon: Icon, href, label }) => (

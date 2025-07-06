@@ -25,8 +25,8 @@ export default function Document() {
         <link rel="canonical" href="https://gonpinodj.netlify.app" />
         
         {/* Hreflang for multilingual SEO */}
-        <link rel="alternate" hrefLang="es" href="https://gonpinodj.netlify.app/es" />
-        <link rel="alternate" hrefLang="en" href="https://gonpinodj.netlify.app/en" />
+        <link rel="alternate" hrefLang="es" href="https://gonpinodj.comes" />
+        <link rel="alternate" hrefLang="en" href="https://gonpinodj.comen" />
         <link rel="alternate" hrefLang="x-default" href="https://gonpinodj.netlify.app" />
         
         {/* Structured Data - Organization */}
@@ -40,7 +40,7 @@ export default function Document() {
               "alternateName": "DJ Gon Pino",
               "description": "DJ y Productor de Música Electrónica en Costa del Sol, España. Especializado en Tech House, Latin Tech, Afro House y Deep Tech. Disponible para eventos, fiestas y contrataciones en Marbella, Estepona y toda la Costa del Sol.",
               "url": "https://gonpinodj.netlify.app",
-              "image": "https://gonpinodj.netlify.app/assets/imageAbout.jpg",
+              "image": "https://gonpinodj.comassets/imageAbout.jpg",
               "sameAs": [
                 "https://instagram.com/gonpinoofficial",
                 "https://youtube.com/@GonPinoOfficial",
@@ -98,7 +98,7 @@ export default function Document() {
               "description": "DJ profesional en Costa del Sol. Contratación de DJ para eventos, fiestas y celebraciones en Marbella, Estepona y toda la Costa del Sol. Especializado en música electrónica, Tech House y Latin Tech.",
               "url": "https://gonpinodj.netlify.app",
               "telephone": "+34610988607",
-              "image": "https://gonpinodj.netlify.app/assets/imageAbout.jpg",
+              "image": "https://gonpinodj.comassets/imageAbout.jpg",
               "priceRange": "€€",
               "areaServed": [
                 {

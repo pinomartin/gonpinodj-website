@@ -1,7 +1,24 @@
 {
-  "name": "DJ Gon Pino - DJ Profesional Costa del Sol",
-  "short_name": "Gon Pino DJ",
-  "description": "DJ y Productor de Música Electrónica en Costa del Sol. Especializado en Tech House, Latin Tech, Afro House y Deep Tech.",
+  "name": "DJ Gon Pino - Profesional Costa del Sol",
+  "short_name": "DJ Gon Pino",
+  "description": "DJ profesional en Costa del Sol especializado en Tech House, Latin Tech, Afro House. Contratación para eventos, fiestas, bodas en Marbella, Estepona.",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -9,20 +26,31 @@
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "es",
-  "dir": "ltr",
   "categories": ["music", "entertainment", "lifestyle"],
-  "icons": [
+  "shortcuts": [
     {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "name": "Contacto",
+      "short_name": "Contacto",
+      "description": "Contactar con DJ Gon Pino",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "/favicon-32x32.png",
+          "sizes": "32x32"
+        }
+      ]
     },
     {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "name": "Música",
+      "short_name": "Música",
+      "description": "Escuchar música de DJ Gon Pino",
+      "url": "/#music-player",
+      "icons": [
+        {
+          "src": "/favicon-32x32.png",
+          "sizes": "32x32"
+        }
+      ]
     }
   ]
 } 

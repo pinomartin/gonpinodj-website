@@ -1,20 +1,56 @@
+# robots.txt para DJ Gon Pino
 User-agent: *
 Allow: /
 
-# Sitemaps
+# Sitemap
 Sitemap: https://gonpinodj.netlify.app/sitemap.xml
 
-# Disallow specific paths
-Disallow: /api/
-Disallow: /_next/
-Disallow: /admin/
-Disallow: /private/
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1
 
-# Allow important assets
-Allow: /assets/
-Allow: /images/
-Allow: /*.css
-Allow: /*.js
+# Permitir todos los bots de motores de búsqueda
+User-agent: Googlebot
+Allow: /
 
-# Crawl-delay
-Crawl-delay: 1 
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Bloquear bots maliciosos
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: dotbot
+Disallow: / 

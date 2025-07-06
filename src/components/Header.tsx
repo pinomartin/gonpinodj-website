@@ -1,13 +1,15 @@
+'use client'
+
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { useTranslation } from "next-i18next";
 import { LanguageSelector } from "./LanguageSelector";
 import { ThemeToggle } from "./ThemeToggle";
+import { useLanguage } from '@/context/LanguageContext';
 
 export const Header = () => {
-  const { t } = useTranslation('common');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { t } = useLanguage();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -51,7 +53,7 @@ export const Header = () => {
                   onClick={() => scrollToSection("hero")}
                   className="w-full text-left px-6 py-3 text-lg font-medium text-gray-800 dark:text-white hover:bg-black/10 dark:hover:bg-white/10 rounded-lg transition-all duration-200 hover:scale-105"
                 >
-                  Home
+                  {t('header.home')}
                 </button>
               </li>
               <li>
@@ -59,7 +61,15 @@ export const Header = () => {
                   onClick={() => scrollToSection("biography")}
                   className="w-full text-left px-6 py-3 text-lg font-medium text-gray-800 dark:text-white hover:bg-black/10 dark:hover:bg-white/10 rounded-lg transition-all duration-200 hover:scale-105"
                 >
-                  {t("common.biography")}
+                  {t('header.biography')}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection("music-player")}
+                  className="w-full text-left px-6 py-3 text-lg font-medium text-gray-800 dark:text-white hover:bg-black/10 dark:hover:bg-white/10 rounded-lg transition-all duration-200 hover:scale-105"
+                >
+                  {t('header.music')}
                 </button>
               </li>
               <li>
@@ -67,7 +77,7 @@ export const Header = () => {
                   onClick={() => scrollToSection("contact")}
                   className="w-full text-left px-6 py-3 text-lg font-medium text-gray-800 dark:text-white hover:bg-black/10 dark:hover:bg-white/10 rounded-lg transition-all duration-200 hover:scale-105"
                 >
-                  {t("common.bookingContact")}
+                  {t('header.contact')}
                 </button>
               </li>
             </ul>

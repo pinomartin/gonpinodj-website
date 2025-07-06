@@ -1,6 +1,5 @@
 import type React from "react";
 import type { Metadata, Viewport } from "next";
-import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 import { ThemeProvider } from '@/context/ThemeContext'
 import { LanguageProvider } from '@/context/LanguageContext'
 import "@/styles/globals.css";
@@ -122,7 +121,7 @@ export const metadata: Metadata = {
       "DJ profesional con +13 años de experiencia en Costa del Sol. Especializado en Tech House, Latin Tech, Afro House. Disponible para eventos, fiestas, bodas en Marbella, Estepona. ¡Contáctanos!",
     images: [
       {
-        url: "/assets/imageAbout.jpg",
+        url: "/assets/about.webp",
         width: 1200,
         height: 630,
         alt: "DJ Gon Pino - DJ Profesional de Música Electrónica en Costa del Sol",
@@ -133,7 +132,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "DJ Gon Pino - DJ Profesional Costa del Sol | Eventos y Fiestas",
     description: "🎵 DJ profesional con +13 años de experiencia. Tech House, Latin Tech, Afro House. Disponible para eventos en Marbella, Estepona. ¡Reserva ya!",
-    images: ["/assets/imageAbout.jpg"],
+    images: ["/assets/about.webp"],
     creator: "@gonpinoofficial",
   },
   verification: {
@@ -209,7 +208,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://api-v2.soundcloud.com" />
         <link
           rel="preload"
-          href="/assets/imageAbout.jpg"
+          href="/assets/about.webp"
           as="image"
           type="image/jpeg"
         />
@@ -231,7 +230,7 @@ export default function RootLayout({
               "alternateName": "DJ Gon Pino",
               "description": "DJ y Productor de Música Electrónica en Costa del Sol, España. Especializado en Tech House, Latin Tech, Afro House y Deep Tech. Disponible para eventos, fiestas y contrataciones en Marbella, Estepona y toda la Costa del Sol.",
               "url": "https://gonpinodj.netlify.app",
-              "image": "https://gonpinodj.netlify.app/assets/imageAbout.jpg",
+              "image": "https://gonpinodj.netlify.app/assets/about.webp",
               "sameAs": [
                 "https://instagram.com/gonpinoofficial",
                 "https://youtube.com/@GonPinoOfficial",
@@ -302,7 +301,7 @@ export default function RootLayout({
               "description": "DJ profesional en Costa del Sol. Contratación de DJ para eventos, fiestas y celebraciones en Marbella, Estepona y toda la Costa del Sol. Especializado en música electrónica, Tech House y Latin Tech.",
               "url": "https://gonpinodj.netlify.app",
               "telephone": "+34610988607",
-              "image": "https://gonpinodj.netlify.app/assets/imageAbout.jpg",
+              "image": "https://gonpinodj.netlify.app/assets/about.webp",
               "priceRange": "€€",
               "areaServed": [
                 {
@@ -382,7 +381,6 @@ export default function RootLayout({
       <body className="antialiased bg-white dark:bg-black transition-colors duration-300">
         <ThemeProvider>
           <LanguageProvider>
-            {gaId && <GoogleAnalytics gaId={gaId} />}
             {children}
           </LanguageProvider>
         </ThemeProvider>

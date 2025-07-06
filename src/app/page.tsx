@@ -14,7 +14,7 @@ export default function Home() {
         <HeroVideo name="Gon Pino" />
       </div>
       <div id="biography">
-        <Biography image="/assets/imageAbout.jpg" />
+        <Biography image="/assets/about.webp" />
       </div>
       <div id="music-player">
         <SoundCloudPlayer />
